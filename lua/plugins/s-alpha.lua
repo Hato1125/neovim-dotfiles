@@ -31,9 +31,10 @@ dashboard.section.header.val = {
 -- Set menu
 
 dashboard.section.buttons.val = {
-  dashboard.button('f', '  > FindFile'   , ':Telescope find_files<CR>'),
-  dashboard.button('b', '  > Browser'   , ':Telescope file_browser path=%:p:h select_buffer=true<CR>'),
-  dashboard.button('q', '⏻  > Quit', ':qa<CR>'),
+  dashboard.button('f', '      find', ':Telescope find_files<CR>'),
+  dashboard.button('b', '      browser', ':Telescope file_browser path=%:p:h select_buffer=true<CR>'),
+  dashboard.button('t', '      terminal', '<CMD>lua require("FTerm").toggle()<CR>'),
+  dashboard.button('q', '⏻      quit', ':qa<CR>'),
 }
 
 -- Send config to alpha

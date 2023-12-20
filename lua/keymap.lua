@@ -18,7 +18,7 @@ vim.keymap.set('n', '<leader>k', '<C-w>k')
 vim.keymap.set('n', '<leader>l', '<C-w>l')
 
 -- telescope
-vim.keymap.set('n', '<leader>ff', builtin.find_files, opts)
+vim.keymap.set('n', '<leader>ff', builtin.git_files, opts)
 vim.keymap.set('n', '<leader>fb', ':Telescope file_browser<CR>', opts)
 
 -- fterm

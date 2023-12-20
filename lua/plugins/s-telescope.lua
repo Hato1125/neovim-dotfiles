@@ -16,7 +16,6 @@ require('telescope').setup({
       '--line-number',
       '--column',
       '--smart-case',
-      '-u',
       '-uu',
     },
   },
